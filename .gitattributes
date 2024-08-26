@@ -52,3 +52,22 @@
 *.meta linguist-generated
 *.prefab linguist-generated
 *.unity linguist-generated
+
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.cs    text
+*.shader text
+*.txt   text
+*.xml   text
+
+# Denote all files that are truly binary and should not be modified.
+*.png   binary
+*.jpg   binary
+*.fbx   binary
+*.zip   binary
+*.dll   binary
+*.exe   binary
+*.unity binary
